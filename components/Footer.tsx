@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { SERIES } from '../lib/data'
+import { SERIES } from '@/lib/data'
 
 export default function Footer() {
   return (
