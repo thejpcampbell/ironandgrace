@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
+:root {
+  --brand-dark: #0F0D0B;
+  --brand-dark-2: #1A1612;
+  --brand-dark-3: #2A2520;
+  --brand-gold: #EF9F27;
+  --brand-gold-deep: #BA7517;
+  --brand-gold-light: #FAEEDA;
+  --brand-teal: #1D9E75;
+  --brand-teal-deep: #0F6E56;
+  --brand-teal-light: #E1F5EE;
+  --brand-coral: #D85A30;
+  --brand-coral-deep: #993C1D;
+  --brand-coral-light: #FAECE7;
+  --brand-purple: #7F77DD;
+  --brand-purple-deep: #534AB7;
+  --brand-purple-light: #EEEDFE;
+  --brand-blue: #378ADD;
+  --brand-blue-deep: #185FA5;
+  --brand-blue-light: #E6F1FB;
+  --brand-pink: #D4537E;
+  --brand-pink-deep: #993556;
+  --brand-pink-light: #FBEAF0;
+  --brand-green: #639922;
+  --brand-green-deep: #3B6D11;
+  --brand-green-light: #EAF3DE;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: #F7F5F2;
+  color: #1a1612;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; color: inherit; }
+
+.display { font-family: var(--font-display); }
+
+/* Gradient accent bar */
+.accent-bar {
+  height: 4px;
+  background: linear-gradient(90deg, var(--brand-gold) 0%, var(--brand-coral) 45%, var(--brand-teal) 100%);
+}
+
+/* Series color system */
+.series-1 { --series-color: var(--brand-gold); --series-light: var(--brand-gold-light); --series-deep: var(--brand-gold-deep); }
+.series-2 { --series-color: var(--brand-teal); --series-light: var(--brand-teal-light); --series-deep: var(--brand-teal-deep); }
+.series-3 { --series-color: var(--brand-coral); --series-light: var(--brand-coral-light); --series-deep: var(--brand-coral-deep); }
+.series-4 { --series-color: var(--brand-purple); --series-light: var(--brand-purple-light); --series-deep: var(--brand-purple-deep); }
+.series-5 { --series-color: var(--brand-blue); --series-light: var(--brand-blue-light); --series-deep: var(--brand-blue-deep); }
+.series-6 { --series-color: var(--brand-pink); --series-light: var(--brand-pink-light); --series-deep: var(--brand-pink-deep); }
+.series-7 { --series-color: var(--brand-green); --series-light: var(--brand-green-light); --series-deep: var(--brand-green-deep); }
