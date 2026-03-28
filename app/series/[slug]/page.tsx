@@ -1,8 +1,8 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
-import { SERIES, STUDIES } from '@/lib/data'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import { SERIES, STUDIES } from '../../lib/data'
 
 export async function generateStaticParams() {
   return SERIES.map(s => ({ slug: s.slug }))
