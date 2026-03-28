@@ -23,7 +23,7 @@ export type Study = {
   discussionQuestions: string[];
   hisReflection: string[];
   herReflection: string[];
-  challenge: string; challengeTitle: string; challengeTitleEmphasis: string;
+  challenge: string; challengeTitle: string; challengeTitleEmphasis: string; pdfFile: string;
 }
 
 export const SERIES: Series[] = [
